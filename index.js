@@ -319,8 +319,8 @@ window.onload = function()
     
     function createBrickGrid()
     {
-        for(var i = 0;i<14;i++)
-            for(var j = 0;j<5;j++)
+        for(var i = 0;i<4;i++) //14
+            for(var j = 0;j<2;j++) //5
             {
                 createBrick(i*(BRICKS_WIDTH+10)+40,j*(BRICKS_HEIGHT+5)+20);
             }
